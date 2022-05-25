@@ -1,6 +1,7 @@
 //Calling Express Module
 const express = require('express');
 const path = require('path');
+
 //Setting Express Server
 var app = express();
 
@@ -15,7 +16,8 @@ app.use(express.static(publicDirectory));
 //Get Jason Data format
 app.use(express.json());
 
-//Set EJS Template
+//Set Html Template
+// app.engine('html', cons.swig)
 app.set('views', __dirname + '/views');
 app.set("view engine", "ejs");
 
@@ -26,3 +28,9 @@ app.use("/", require("./routes/pages"));
 app.listen(3000, () => {
     console.log("Node Server is running at port 3000");
   });
+
+  //render Html Pages
+  // var cons = require('consolidate');
+  // app.engine('html', cons.swig)
+//app.set('views', __dirname + '/views');
+//app.set("view engine", "html");

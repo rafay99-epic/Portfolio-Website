@@ -5,18 +5,54 @@
     <title>Home Page</title>
 </head>
 <body>
-    <header>
-        <%- include('../partials/header'); %>
-    </header>
+     <header>
+            <%- include('../partials/header'); %>
+        </header> 
     <main>
+        <header>
+            <div class="container text=center">
+                <div class="content">
+                    <h2>Mohamamd Abdul Rafay</h2>
+                    <h1 id="heading-cover">Full Stack & Software Engineer Developer</h1>
+                    <div>
+                        <a href="/blog"><button type="button" id="blog-btn"><span></span>Blogs</button></a>
+                        <a href="/service"><button type="button" id="blog-btn"><span></span>Service</button></a>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </header>
         
+        <!-- About Me -->
+        <div class="about container" id="about"  data-aos="slide-left">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <img src="/image/profile2.jpg" class="profile-img">
+                </div>
+                <div class="col-md-6">
+                    <h3 style="text-align:justify"> WHO AM I ?</h3>
+                    <p>
+                        I am 22 years old Software Developer, who is trying to crafting my skill to perfection,
+                        I love different programming language but my favourite programming language has to be Java,C++, HTML,CSS Javascript,Bash Scripting and Pyton.
+                        I have my own motto <br>
+                        Eat &#x1F35B;, <br>
+                        Sleep &#128564, <br>
+                        Code  &#128104;&#8205;&#128187;,<br>
+                        Repreat &#x1f501;.<br>
+                    </p>
+
+
+                </div>
+            </div>
+        </div>
     </main>
     
     
-    
-    <footer>
-        <%- include('../partials/footer'); %>
-    </footer>
+    <br>
+    <!-- <footer>
+      //  <%- include('../partials/footer'); %>
+    </footer> -->
       
 </body>
 </html>
