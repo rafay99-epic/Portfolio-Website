@@ -9,22 +9,39 @@
             <%- include('../partials/header'); %>
     </header> 
     <main>
+        <!-- This is the about Section-->
         <section class="about" id="about">
             <%- include('../about/about'); %>
             <%- include('../about/count'); %>
             <%- include('../about/skills'); %>
             <%- include('../about/interest'); %> 
-        </section>    
+        </section> 
+        
+        <!-- This is the Resume Section -->
         <section class="resume" id="resume">
             <%- include('../resume/resume'); %>            
         </section>
+        
+        <!-- This is the Service Page-->
         <section id="services" class="services">
             <%- include('../service/service'); %> 
         </section>
 
+        <!-- This is the protfolio Section -->
+        <section id="portfolio" class="portfolio">
+            <%- include('../portfolio/portfolio'); %> 
+        </section>
+        
+        
+        <!-- This is the Contact Section -->
+        <section class="contact" id="contact">
+            <%- include('../contact/contact'); %> 
+        </section>
     
     </main>
+
     <footer>
+        <%- include('../credit/credit' ); %> 
         <%- include('../partials/footer'); %>
     </footer>
       
