@@ -25,8 +25,8 @@ app.set("view engine", "ejs");
 app.use("/", require("./routes/pages"));
 
 
-app.listen(3000, () => {
-    console.log("Node Server is running at port 3000");
+app.listen(8080, () => {
+    console.log("Node Server is running at port 8080");
   });
 
   //render Html Pages
