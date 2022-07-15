@@ -53,6 +53,10 @@ The website is active on the following Link: [https://rafay-99.el.r.appspot.com/
 
 For more features or face any issue free will to post on the issue section. Free will to fork this project and add more thing to this project.
 
+Note:
+
+All of the code will be in done in the test branch and other will be merged in the main repo until the branch is reviews and approved.
+
 Happy Coding…👋
 
 # Contact Information:
