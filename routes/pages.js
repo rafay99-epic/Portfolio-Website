@@ -18,6 +18,16 @@ router.get("/login", (req, res) => {
     res.render("./login/login");
 });
 
+//this will rendeer the dashboard for the admin pages
+router.get("/dashboard", (req, res) => {
+    res.render("./login/dashboard");
+});
+
+
+router.get("/blog", (req, res) => {
+    res.render("./blog/blog");
+});
+
 //this will render the portfolio-details pages
 
 //this will render the web project called Smart Parking assistant
@@ -53,21 +63,10 @@ router.get("/portfolio-script-terminal-config", (req, res) => {
 });
 
 
+
 // router.get("/dashboard", (req, res) => {
-//     res.render("./pages/dashboard");
+//     res.render("login/dashboard");
 // });
-// router.get("/service",(req, res) => {
-//     res.render("./pages/service");
-// });  
-// router.get("/login",(req, res) => {
-//     res.render("./pages/login");
-// });
-// router.get("/blog",(req, res) => {
-//     res.render("./pages/blog");
-// });
-
-
-
 
 
 
