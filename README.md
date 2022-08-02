@@ -49,6 +49,24 @@ In this section if any one want to communicate with they can. There is a mail es
 
 The website is active on the following Link: [https://rafay-99.el.r.appspot.com/](https://rafay-99.el.r.appspot.com/) 
 
+
+# Deployed Website:
+
+Currently I am hosting my website on Google Cloud and It is working pretty good with a free domain but In the near Feature I will be getting a custom Domain. 
+
+To see how to upload a website on google cloud checkout this awesome playlist on [YouTube](https://www.youtube.com/playlist?list=PL42xwJRIG3xCtmOrJAQFR5sIJFKIJ9MEn).
+
+# Future Work:
+
+The following feature will be implemented in the near feature or currently be working on:
+
+1. Secure Login System
+2. Dashboard to publish Blogs
+3. View Blogs
+4. Secure Database.
+5. Custom Domain.
+
+
 # Coding Contribution:
 
 For more features or face any issue free will to post on the issue section. Free will to fork this project and add more thing to this project.
