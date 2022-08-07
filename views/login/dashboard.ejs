@@ -1,23 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-        <%- include('../partials/head'); %>
-        <title>Dashboard </title>
+<head> 
+
 </head>
 <body>
-    <header>
-        <%- include('../partials/header'); %>
-    </header>
+    <head>
 
-    <main>
-
-        <h1>The page is rending</h1>
-
-
+    </head>
+    
+    <main> 
+        <div class="container-scroller">
+            <nav class="sidebar sidebar-offcanvas" id="sidebar">
+                <ul class="nav">
+                    <li class="nav-item nav-category">
+                        <span class="nav-link">Navigation</span>
+                    </li>
+                    <li class="nav-item menu-items">
+                        <a class="nav-link" href="/manager-dashboard">
+                            <span class="menu-icon">
+                                <i class="fa-solid fa-house-user"></i>
+                            </span>
+                            <span class="menu-title">Dashboard</span>
+                        </a>
+                    </li>
+                    <li class="nav-item menu-items">
+                        <a class="nav-link" data-toggle="collapse" href="/add-user" aria-expanded="false"
+                            aria-controls="ui-basic">
+                            <span class="menu-icon">
+                                <i class="fa-solid fa-user"></i>
+                            </span>
+                            <span class="menu-title">Add User</span>
+                        </a>
+    
+                    </li>
+                    <li class="nav-item menu-items">
+                        <a class="nav-link" data-toggle="collapse" href="/DisplayUserParkingMap" aria-expanded="false"
+                            aria-controls="ui-basic">
+                            <span class="menu-icon">
+                                <i class="fa-solid fa-user"></i>
+                            </span>
+                            <span class="menu-title">Custom Parking Map</span>
+                        </a>
+    
+                    </li>
+    
+                    <li class="nav-item menu-items">
+                        <a class="nav-link" data-toggle="collapse" href="/manager-reversed-parking" aria-expanded="false"
+                            aria-controls="ui-basic">
+                            <span class="menu-icon">
+                                <i class="fa-solid fa-parking"></i>
+                            </span>
+                            <span class="menu-title">Reversed Parking</span>
+                        </a>
+                    </li>
+    
+                    <li class="nav-item menu-items">
+                        <a class="nav-link" href="/view-update-delete-user-profile">
+                            <span class="menu-icon">
+                                <i class="fa-solid fa-id-badge"></i>
+                            </span>
+                            <span class="menu-title">User Profile</span>
+                        </a>
+                    </li>
+                    <li class="nav-item menu-items">
+                        <a class="nav-link" href="/view-suggestions">
+                            <span class="menu-icon">
+                                <i class="fa-solid fa-address-book"></i>
+                            </span>
+                            <span class="menu-title">Suggestion</span>
+                        </a>
+                    </li>
+                    <li class="nav-item menu-items">
+                        <a class="nav-link" href="/view-user-reserved">
+                            <span class="menu-icon">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </span>
+                            <span class="menu-title">Reserved Parking Slot</span>
+                        </a>
+                    </li>
+    
+                    <li class="nav-item menu-items">
+                        <a class="nav-link" data-toggle="collapse" href="/parking-map" aria-expanded="false"
+                            aria-controls="ui-basic">
+                            <span class="menu-icon">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            </span>
+                            <span class="menu-title">Parking Direction</span>
+                        </a>
+    
+                    </li>
+    
+                </ul>
+                
+            </nav>
+            <div class="container-fluid page-body-wrapper">
+                <nav class="navbar p-0 fixed-top d-flex flex-row">
+                    <div class="navbar-menu-wrapper flex-grow d-flex align-items-stretch">
+                        <ul class="navbar-nav navbar-nav-right">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="/logout">
+                                    <div class="navbar-profile">
+                                        <i class="fa-solid fa-arrow-right-from-bracket" style="color: red;"></i>
+                                        <p class="mb-0 d-none d-sm-block navbar-profile-name">Logout</p>
+                                        <i class="mdi mdi-menu-down d-none d-sm-block"></i>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <br>
+                <div class="main-panel">
+                    <div class="content-wrapper">
+                        <div class="row">
+                            <div class="col-md-12 grid-margin stretch-card">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="d-flex flex-row justify-content-between">
+                                            <h4 class="card-title mb-1"> Blog Dashboard</h4>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="preview-list">
+                                                
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </div>    
     </main>
-
+    
     <footer>
-        <%- include('../partials/footer'); %>
+        <%- include('../credit/credit' ); %> 
     </footer>
 </body>
 </html>

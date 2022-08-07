@@ -62,11 +62,9 @@ router.get("/portfolio-script-terminal-config", (req, res) => {
     res.render("portfolio-details/portfolio-script-terminal-config");
 });
 
-
-
-// router.get("/dashboard", (req, res) => {
-//     res.render("login/dashboard");
-// });
+router.get("/dashboard", (req, res) => {
+    res.render("./login/dashboard");
+});
 
 
 
