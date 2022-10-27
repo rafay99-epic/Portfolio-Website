@@ -47,14 +47,14 @@ In this section if any one want to communicate with they can. There is a mail es
 
 # Site Link:
 
-The website is active on the following Link: [https://rafay-99.el.r.appspot.com/](https://rafay-99.el.r.appspot.com/) 
+The website is active on the following Link: [rafay99.info](https://rafay99.info/) 
 
 
 # Deployed Website:
 
-Currently I am hosting my website on Google Cloud and It is working pretty good with a free domain but In the near Feature I will be getting a custom Domain. 
-
-To see how to upload a website on google cloud checkout this awesome playlist on [YouTube](https://www.youtube.com/playlist?list=PL42xwJRIG3xCtmOrJAQFR5sIJFKIJ9MEn).
+The website is deployed on [render](https://render.com/) and the domain is from [Hostring](https://www.hostinger.com/).
+All of the code is available on [github.com/rafay99-epic/Portfolio-Website](https://github.com/rafay99-epic/Portfolio-Website)
+To see how to deploy website on render plase follow this webpage from [freecodingCamp](https://www.freecodecamp.org/news/how-to-deploy-nodejs-application-with-render/)
 
 # Future Work:
 
@@ -64,16 +64,15 @@ The following feature will be implemented in the near feature or currently be wo
 2. Dashboard to publish Blogs
 3. View Blogs
 4. Secure Database.
-5. Custom Domain.
 
 
 # Coding Contribution:
 
 For more features or face any issue free will to post on the issue section. Free will to fork this project and add more thing to this project.
 
-Note:
+***Note***:
+All of the develoopment will be done in the [Develelopment-Branch]() and the testing will be done on the [Testing-Branch](). No code will be commmited into the main branch until is bug free and approved by the admin of the project.
 
-All of the code will be in done in the test branch and other will be merged in the main repo until the branch is reviews and approved.
 
 Happy Coding…👋
 
