@@ -71,7 +71,7 @@ The following feature will be implemented in the near feature or currently be wo
 For more features or face any issue free will to post on the issue section. Free will to fork this project and add more thing to this project.
 
 ***Note***:
-All of the develoopment will be done in the [Develelopment-Branch]() and the testing will be done on the [Testing-Branch](). No code will be commmited into the main branch until is bug free and approved by the admin of the project.
+All of the develoopment will be done in the [Develelopment-Branch](https://github.com/rafay99-epic/Portfolio-Website/tree/Development-Branch) and the testing will be done on the [Testing-Branch](https://github.com/rafay99-epic/Portfolio-Website/tree/Testing-Branch). No code will be commmited into the main branch until is bug free and approved by the admin of the project.
 
 
 Happy Coding…👋
