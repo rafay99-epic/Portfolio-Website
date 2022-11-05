@@ -61,7 +61,9 @@ router.get("/portfolio-script-update-system", (req, res) => {
 router.get("/portfolio-script-terminal-config", (req, res) => {
     res.render("portfolio-details/portfolio-script-terminal-config");
 });
-
+router.get("/one-power-detail", (req, res) => {
+    res.render("portfolio-details/one-power-detail");
+});
 router.get("/dashboard", (req, res) => {
     res.render("./login/dashboard");
 });
