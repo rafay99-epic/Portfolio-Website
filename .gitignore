@@ -1,3 +1,4 @@
+# this is the .gitignore file and this will prevent files from uploading to to the github
 # Leave the node modules
-node_modules/
+node_modules/*
 
