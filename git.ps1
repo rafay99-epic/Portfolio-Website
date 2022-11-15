@@ -14,6 +14,7 @@ if( $OutputVariable -eq "main" ) {
     Write-Host("Running git commands");
     
     # Checking if the node modules are installed
+    
     if (Test-Path -Path "node_modules") {
         Write-Host("Node Modules are installed");
     } else {
