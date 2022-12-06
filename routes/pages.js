@@ -5,7 +5,6 @@ const router = express.Router();
 //this will render the loading screen page
 router.get("/", (req, res) => {
     res.render("./pages/loading");
-    
 });
 
 //this will render the index pages
