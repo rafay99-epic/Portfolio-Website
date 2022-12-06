@@ -1,4 +1,120 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv = "refresh" content = "4; url = /index" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/img/favicon.png" rel="icon">
+  <link href="/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <title>Loading Screen</title>
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color: black
+    }
+
+    .loading-screen {
+      width: 100px;
+      height: 100px;
+      background-color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      animation: loading 2s infinite;
+    }
+
+    .loading-screen:before,
+    .loading-screen:after {
+      content: "";
+      width: 30px;
+      height: 30px;
+      background-color: black;
+      border-radius: 50%;
+      position: absolute;
+    }
+
+    .loading-screen:before {
+      top: -15px;
+      left: -15px;
+      animation: loading-before 1s infinite;
+    }
+
+    .loading-screen:after {
+      bottom: -15px;
+      right: -15px;
+      animation: loading-after 1s infinite;
+    }
+
+    @keyframes loading {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes loading-before {
+      0% {
+        top: -15px;
+        left: -15px;
+      }
+      25% {
+        top: 0;
+        left: 0;
+      }
+      50% {
+        top: 0;
+        left: 0;
+      }
+      75% {
+        top: 0;
+        left: -15px;
+      }
+      100% {
+        top: -15px;
+        left: -15px;
+      }
+    }
+
+    @keyframes loading-after {
+      0% {
+        bottom: -15px;
+        right: -15px;
+      }
+      25% {
+        bottom: 0;
+        right: 0;
+      }
+      50% {
+        bottom: 0;
+        right: 0;
+      }
+      75% {
+        bottom: -15px;
+        right: 0;
+      }
+      100% {
+        bottom: -15px;
+        right: -15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="loading-screen"></div>
+</body>
+</html>
+
+<!-- 
 
 <!DOCTYPE html>
 <html lang="en">
@@ -67,7 +183,7 @@
       </div>
       <link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono:700' rel='stylesheet' type='text/css'>
 </body>
-</html>
+</html> -->
 
 
 
