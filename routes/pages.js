@@ -23,9 +23,9 @@ router.get("/dashboard", (req, res) => {
 });
 
 
-router.get("/blog", (req, res) => {
-    res.render("./blog/blog");
-});
+// router.get("/blog", (req, res) => {
+//     res.render("./blog/blog");
+// });
 
 //this will render the portfolio-details pages
 
