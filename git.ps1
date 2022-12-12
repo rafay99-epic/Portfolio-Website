@@ -33,29 +33,29 @@ function git_Message()
 function git_push()
 {
     $Push= Read-Host "
-    ----------------------------------------------
-    Do you want to push to the remote repo? (y/n)
-    ----------------------------------------------"
+-------------------------------------------------
+Do you want to push to the remote repo? (y/n)
+-------------------------------------------------"
         if ($Push -eq "y") {
             Write-Host("
-    ---------------------------------------------------      
+---------------------------------------------------------      
     Pushing to the remote repo called: $OutputVariable
-    ---------------------------------------------------");
+--------------------------------------------------------");
             git push
         } else {
             Write-Host("
-    --------------------------------------------------------------------
+--------------------------------------------------------------------
     Coding won't be Push to GitHub called: $OutputVariable
-    --------------------------------------------------------------------");
+--------------------------------------------------------------------");
         }
 }
 function run_server()
 {
     # This will ask user to run the Node server
     $User_options= Read-Host "
-    ---------------------------------------------
-    Do you want to run the NodeJS Server? (y/n)
-    ---------------------------------------------"
+---------------------------------------------
+Do you want to run the NodeJS Server? (y/n)
+---------------------------------------------"
     if ($User_options -eq "y") {
         
         Write-Host("Running Node JS Serve");
@@ -66,7 +66,7 @@ function run_server()
     }
 }
 
-# 
+# This 
 $OutputVariable = (git branch --show-current) | Out-String
 if( $OutputVariable -eq "main" ) {
     Write-Host("
