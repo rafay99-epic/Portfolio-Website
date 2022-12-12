@@ -42,7 +42,7 @@ if( $OutputVariable -eq "main" ) {
 # }
 
 $User_options= Read-Host "Do you want to run the NodeJS Server? (y/n)"
-if (User_options -eq "y") {
+if ($User_options -eq "y") {
     
     Write-Host("Running Node JS Serve");
     npm start
