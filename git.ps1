@@ -41,6 +41,15 @@ if( $OutputVariable -eq "main" ) {
 #     Write-Host("Please try Again")
 # }
 
-# Running the NodeJs server.
-Write-Host("Running Node JS Serve");
-npm start
+$User_options= Read-Host "Do you want to run the NodeJS Server? (y/n)"
+if (User_options -eq "y") {
+    
+    Write-Host("Running Node JS Serve");
+    npm start
+} else {
+    Write-Host("Exiting the Script");
+    exit
+}
+# # Running the NodeJs server.
+# Write-Host("Running Node JS Serve");
+# npm start
