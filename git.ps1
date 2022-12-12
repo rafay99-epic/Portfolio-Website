@@ -25,8 +25,16 @@ if( $OutputVariable -eq "main" ) {
 
     git status
     git add *
-    git commit -m 'Updating Files in Development Branch'
+    Write-Host("
+-------------------------------------
+    Enter your commit Message:
+-------------------------------------");
+    $commitMessage = Read-Host
+    git commit -m $commitMessage
     git push
+    
+    # git commit -m 'Updating Files in Development Branch'
+    # git push
 }
 # else {
 #     Write-Host("No Branch was Detected");
