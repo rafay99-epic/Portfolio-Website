@@ -9,16 +9,16 @@ I’m a Software Developer and Have my own place on Internet is Important so I d
 For this Project I am using The following programming Languages
 
 1. HTML 
-2. Bootstrap
+2. CSS
 3. JavaScript
 
 ## Frame Works:
 
 In this project you note the following technologies that has been implanted
 
-1. MongoDB
-2. Node-Js
-3. EJS
+1. Node-Js
+2. EJS
+3. Bootstrap 5
 
 # Web Site Structure:
 
@@ -55,15 +55,6 @@ The website is active on the following Link: [rafay99.info](https://rafay99.info
 The website is deployed on [render](https://render.com/) and the domain is from [Hostring](https://www.hostinger.com/).
 All of the code is available on [github.com/rafay99-epic/Portfolio-Website](https://github.com/rafay99-epic/Portfolio-Website)
 To see how to deploy website on render plase follow this webpage from [freecodingCamp](https://www.freecodecamp.org/news/how-to-deploy-nodejs-application-with-render/)
-
-# Future Work:
-
-The following feature will be implemented in the near feature or currently be working on:
-
-1. Secure Login System
-2. Dashboard to publish Blogs
-3. View Blogs
-4. Secure Database.
 
 
 # Coding Contribution:
