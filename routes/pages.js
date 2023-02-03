@@ -2,29 +2,9 @@ const express = require("express");
 //getting the router for the webpages.
 const router = express.Router();
 
-//this will render the loading screen page
-router.get("/loading", (req, res) => {
-    res.render("./pages/loading");
-});
-
 //this will render the index pages
 router.get("/", (req, res) => {
     res.render("./pages/index");
-});
-
-//yhis will render to the login pages
-router.get("/login", (req, res) => {
-    res.render("./login/login");
-});
-
-//this will rendeer the dashboard for the admin pages
-router.get("/dashboard", (req, res) => {
-    res.render("./login/dashboard");
-});
-
-
-router.get("/blog", (req, res) => {
-    res.render("./blog/blog");
 });
 
 //this will render the portfolio-details pages
@@ -63,12 +43,5 @@ router.get("/portfolio-script-terminal-config", (req, res) => {
 router.get("/one-power-detail", (req, res) => {
     res.render("portfolio-details/one-power-detail");
 });
-router.get("/dashboard", (req, res) => {
-    res.render("./login/dashboard");
-});
 
-
-
-
-
-  module.exports = router;
+module.exports = router;
