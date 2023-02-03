@@ -1,7 +1,7 @@
 //Calling Express Module
 const express = require('express');
 const path = require('path');
-
+const PORT= 8080;
 //Setting Express Server
 var app = express();
 
@@ -25,8 +25,8 @@ app.set("view engine", "ejs");
 app.use("/", require("./routes/pages"));
 
 
-app.listen(8080, () => {
-    console.log("Node Server is running at port 8080");
+app.listen(PORT, () => {
+    console.log("Node Server & website is running on port: " + PORT);
   });
 
   //render Html Pages
